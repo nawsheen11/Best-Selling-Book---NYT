@@ -1,0 +1,55 @@
+body{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.container{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
+}
+
+.container .box{
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    padding:0% 0% 0% 0%;
+    margin: 20px;
+    background: #8360c3; 
+  background: -webkit-linear-gradient(
+    to right,
+    #2ebf91,
+    #8360c3
+  ); 
+  background: linear-gradient(
+    to right,
+    #2ebf91,
+    #8360c3
+  ); 
+    color: #fff;
+    width: 400px;
+}
+
+.container .box .image{
+    position: relative;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container .box .button{
+    position: relative;
+    font-size: 25px;
+    height: 40px;
+    width: 120px;
+    color: #000000;
+    border: 1x solid;
+}
